@@ -1,0 +1,499 @@
+
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#302721">
+
+  <meta
+    name="description"
+    content="Velkommen til Dagdelen Lashes. Et roligt univers med passion for smukke vipper, nærvær og de små detaljer."
+  >
+
+  <title>Forside | Dagdelen Lashes</title>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js" defer></script>
+  <script src="wow.js" defer></script>
+</head>
+
+<body class="page-home">
+
+  <!-- =====================================
+       NAVIGATION
+  ===================================== -->
+
+  <header class="site-header" data-header>
+
+    <a
+      class="site-brand"
+      href="index.html"
+      aria-label="Dagdelen Lashes, til forsiden"
+    >
+      <span class="site-brand__name">Dagdelen</span>
+      <span class="site-brand__detail">LASHES</span>
+    </a>
+
+    <!-- MOBILMENU -->
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Åbn menu"
+      aria-expanded="false"
+      aria-controls="primary-nav"
+    >
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- ALLE MENUPUNKTER -->
+    <nav
+      class="site-nav"
+      id="primary-nav"
+      aria-label="Hovednavigation"
+    >
+
+      <a
+        class="site-nav__link is-active"
+        href="index.html"
+        aria-current="page"
+      >
+        Forside
+      </a>
+
+      <a class="site-nav__link" href="om-mig.html">
+        Om mig
+      </a>
+
+      <a class="site-nav__link" href="behandlinger.html">
+        Behandlinger
+      </a>
+
+      <a class="site-nav__link" href="book-tid.html">
+        Book tid
+      </a>
+
+      <a class="site-nav__link" href="kontakt.html">
+        Kontakt
+      </a>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!-- =====================================
+         VELKOMSTBILLEDE
+    ===================================== -->
+
+    <div class="hero-stage" data-hero-stage>
+
+      <section class="hero" aria-labelledby="hero-name">
+
+        <div class="hero__image" aria-hidden="true"></div>
+        <div class="hero__shade" aria-hidden="true"></div>
+        <div class="hero__wash" aria-hidden="true"></div>
+
+        <!-- DAGDELEN LOGO -->
+        <div class="hero__identity">
+
+          <h1 class="hero__title" id="hero-name">
+            <img
+              class="hero__logo"
+              src="Billeder/dagdelen-logo.png"
+              alt="Dagdelen"
+              width="2346"
+              height="849"
+            >
+          </h1>
+
+          <p class="hero__subline">Lashes</p>
+
+        </div>
+
+        <!-- SCROLL INDIKATOR -->
+        <a
+          class="hero__scroll"
+          href="#velkommen"
+          aria-label="Gå til introduktionen"
+        >
+          <span>SCROLL FOR AT UDFORSKE</span>
+
+          <span
+            class="hero__scroll-line"
+            aria-hidden="true"
+          ></span>
+        </a>
+
+      </section>
+
+    </div>
+
+    <!-- =====================================
+         VELKOMMEN
+    ===================================== -->
+
+    <section
+      class="welcome section-space"
+      id="velkommen"
+    >
+
+      <div class="welcome__inner reveal">
+
+        <p class="eyebrow">
+          <span class="eyebrow__line"></span>
+          VELKOMMEN TIL DAGDELEN LASHES
+        </p>
+
+        <h2 class="display-title">
+          Skønhed i <em>hver eneste</em> detalje.
+        </h2>
+
+        <p class="body-copy">
+          Et sted, hvor smukke vipper, nærvær og lidt
+          tid til dig selv mødes. Hos Dagdelen Lashes
+          er målet, at du skal føle dig lige så godt
+          tilpas, som du ser ud.
+        </p>
+
+        <a href="om-mig.html" class="text-link">
+          LÆR PERSONEN BAG AT KENDE
+          <span aria-hidden="true">↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- =====================================
+         KLINIKKEN - TO BILLEDER
+    ===================================== -->
+
+    <section
+      class="studio section-space"
+      id="univers"
+      aria-labelledby="studio-heading"
+    >
+
+      <div class="section-heading reveal">
+
+        <div>
+          <p class="eyebrow">01 / KLINIKKEN</p>
+
+          <h2
+            class="display-title"
+            id="studio-heading"
+          >
+            Et lille <em>univers</em> af ro.
+          </h2>
+        </div>
+
+        <p class="section-heading__copy">
+          Et kig indenfor – et sted skabt med
+          øje for atmosfæren og detaljerne.
+        </p>
+
+      </div>
+
+      <div class="studio-grid">
+
+        <!-- BEHANDLINGSRUMMET -->
+        <figure class="studio-card reveal">
+
+          <div class="image-wrap studio-card__image">
+            <img
+              src="Billeder/IMG_0398.JPG"
+              alt="Klinikkens behandlingsplads med lampe og rolige omgivelser"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+
+          <figcaption>
+            <span>01</span>
+            Behandlingsrummet
+          </figcaption>
+
+        </figure>
+
+        <!-- VIPPEUDSTYR -->
+        <figure class="studio-card reveal">
+
+          <div class="image-wrap studio-card__image">
+            <img
+              src="Billeder/IMG_0399.JPG"
+              alt="Vippebakker og værktøj klar til behandling"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+
+          <figcaption>
+            <span>02</span>
+            Passion for håndværket
+          </figcaption>
+
+        </figure>
+
+      </div>
+
+    </section>
+
+    <!-- =====================================
+         VIPPEBEHANDLING
+    ===================================== -->
+
+    <section
+      class="experience section-space"
+      aria-labelledby="experience-heading"
+    >
+
+      <div class="experience__visual reveal">
+
+        <div class="image-wrap experience__photo">
+          <img
+            src="Billeder/IMG_0398.png"
+            alt="Nærbillede af en vippebehandling hos Dagdelen Lashes"
+            loading="lazy"
+            decoding="async"
+          >
+        </div>
+
+        <span class="image-note">
+          THE BEAUTY IS IN THE DETAILS
+        </span>
+
+      </div>
+
+      <div class="experience__text reveal">
+
+        <p class="eyebrow">02 / OPLEVELSEN</p>
+
+        <h2
+          class="display-title"
+          id="experience-heading"
+        >
+          Smukke vipper.
+          <em>Skabt med passion.</em>
+        </h2>
+
+        <div class="experience__rule"></div>
+
+        <p class="body-copy">
+          En vippebehandling er mere end et resultat.
+          Det er også en mulighed for at sætte tempoet
+          ned, læne sig tilbage og lade de små detaljer
+          få opmærksomhed.
+        </p>
+
+        <p class="body-copy">
+          Hver kunde er forskellig, og netop det
+          gør arbejdet særligt.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- =====================================
+         KUNDER - TO BILLEDER
+    ===================================== -->
+
+    <section
+      class="results section-space"
+      id="resultater"
+      aria-labelledby="results-heading"
+    >
+
+      <div class="results__heading reveal">
+
+        <p class="eyebrow">03 / RESULTATER</p>
+
+        <h2
+          class="display-title"
+          id="results-heading"
+        >
+          Små detaljer.
+          <em>Store smil.</em>
+        </h2>
+
+        <p class="body-copy">
+          Et lille udpluk af de smukke vipper
+          og glade øjeblikke hos Dagdelen Lashes.
+        </p>
+
+      </div>
+
+      <div class="results-grid">
+
+        <!-- KUNDE 1 -->
+        <figure class="result-card reveal">
+
+          <div class="image-wrap">
+            <img
+              src="Billeder/img_0414.png"
+              alt="Kunde viser sine nye vipper efter behandlingen"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+
+          <figcaption>
+            <span>01</span>
+            Et smukt resultat
+          </figcaption>
+
+        </figure>
+
+        <!-- KUNDE 2 -->
+        <figure class="result-card reveal">
+
+          <div class="image-wrap">
+            <img
+              src="Billeder/img_0415.png"
+              alt="Kunde med flotte vippeextensions"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+
+          <figcaption>
+            <span>02</span>
+            Følelsen bagefter
+          </figcaption>
+
+        </figure>
+
+      </div>
+
+    </section>
+
+    <!-- =====================================
+         PERSONEN BAG DAGDELEN LASHES
+    ===================================== -->
+
+    <section
+      class="closing section-space"
+      aria-labelledby="closing-heading"
+    >
+
+      <div class="closing__inner reveal">
+
+        <p class="eyebrow">PERSONEN BAG</p>
+
+        <h2 id="closing-heading">
+          En lille drøm.<br>
+          <em>En stor passion.</em>
+        </h2>
+
+        <p>
+          Bag Dagdelen Lashes står Melis Dagdelen
+          med sin passion for skønhed og de øjeblikke,
+          hvor en kunde går herfra med et smil.
+        </p>
+
+        <a
+          class="button-outline"
+          href="om-mig.html"
+        >
+          LÆS MIN HISTORIE
+          <span aria-hidden="true">↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- =====================================
+       FOOTER
+  ===================================== -->
+
+  <footer class="site-footer">
+
+    <div class="site-footer__top">
+
+      <a
+        class="site-footer__brand"
+        href="index.html"
+      >
+        Dagdelen
+        <span>Lashes</span>
+      </a>
+
+      <nav aria-label="Navigation i sidefod">
+
+        <a href="index.html">Forside</a>
+        <a href="om-mig.html">Om mig</a>
+        <a href="behandlinger.html">Behandlinger</a>
+        <a href="book-tid.html">Book tid</a>
+        <a href="kontakt.html">Kontakt</a>
+
+      </nav>
+
+    </div>
+
+    <!-- INSTAGRAM -->
+    <div class="site-footer__social">
+
+      <p class="site-footer__social-label">
+        FØLG MED PÅ INSTAGRAM
+      </p>
+
+      <div class="site-footer__social-links">
+
+        <a
+          href="https://www.instagram.com/dagdelen_lashes/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Besøg Dagdelen Lashes på Instagram"
+        >
+          @dagdelen_lashes
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <a
+          href="https://www.instagram.com/melis_dagdelen41/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Besøg Melis Dagdelens personlige Instagram"
+        >
+          @melis_dagdelen41
+          <span aria-hidden="true">↗</span>
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="site-footer__bottom">
+
+      <span>BEAUTY IS IN THE DETAILS</span>
+
+      <span>
+        © <span data-year>2026</span>
+        DAGDELEN LASHES
+      </span>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>

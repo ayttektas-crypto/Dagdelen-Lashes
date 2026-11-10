@@ -1,0 +1,36 @@
+DAGDELEN LASHES – FØRSTE KOMPLETTE UDKAST
+========================================
+
+1. Åbn din eksisterende mappe "Dagdelen" i VS Code.
+2. Lav gerne en sikkerhedskopi af dine nuværende filer først.
+3. Kopiér disse fire filer over i mappen og erstat de gamle:
+   - index.html
+   - om-mig.html
+   - style.css
+   - script.js
+4. I mappen Dagdelen/Billeder skal disse originale billedfiler ligge:
+   - dagdelen-logo.png  (medfølger i pakken)
+   - pexels-prince-kumar-2155071944-33576089.jpg
+   - IMG_0397.JPG
+   - IMG_0398.JPG
+   - IMG_0399.JPG
+   - IMG_0398.png
+   - IMG_0402.JPG
+   - img_0414.png
+   - img_0415.png
+   - Mig.png
+
+   VIGTIGT: præcis store/små bogstaver og filendelser skal passe.
+   Brug originale billeder, ikke screenshots af filikoner.
+
+5. Højreklik på index.html > Open with Live Server.
+6. Tryk Ctrl+Shift+R i Chrome, hvis den gamle side stadig vises.
+7. Test mobil i Chrome med F12 og derefter Ctrl+Shift+M.
+
+Hjemmesiden har kun Forside og Om mig – ingen booking eller priser.
+Hvert fotografi er brugt præcis én gang i hele hjemmesiden.
+Om mig-historien er en godkendelseskrævende eksempeltekst, ikke dokumenterede fakta.
+Google Fonts kræver internetforbindelse; systemskrifter bruges som fallback.
+
+OBS: Denne pakke indeholder ikke dine øvrige originale fotos, da de
+ligger lokalt på din computer. Du skal selv lægge dem i Billeder-mappen.
