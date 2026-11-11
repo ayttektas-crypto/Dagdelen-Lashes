@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#302721">
+  <meta name="robots" content="noindex, nofollow">
+
+  <meta
+    name="description"
+    content="Prøv bookingoplevelsen hos Dagdelen Lashes. Dette er en demonstration og ikke et rigtigt bookingsystem."
+  >
+
+  <title>Book tid – demo | Dagdelen Lashes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="inner-pages.css">
+
+  <script src="script.js" defer></script>
+  <script src="wow.js" defer></script>
+  <script src="booking.js" defer></script>
+</head>
+
+<body class="page-about dl-page page-booking">
+
+  <header class="site-header" data-header>
+    <a class="site-brand" href="index.html" aria-label="Dagdelen Lashes – forsiden">
+      <span class="site-brand__name">Dagdelen</span>
+      <span class="site-brand__detail">LASHES</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Åbn menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="primary-nav" aria-label="Hovednavigation">
+      <a class="site-nav__link" href="index.html">Forside</a>
+      <a class="site-nav__link" href="om-mig.html">Om mig</a>
+      <a class="site-nav__link" href="behandlinger.html">Behandlinger</a>
+      <a class="site-nav__link is-active" href="book-tid.html" aria-current="page">Book tid</a>
+      <a class="site-nav__link" href="kontakt.html">Kontakt</a>
+    </nav>
+  </header>
+
+  <main class="dl-main">
+
+    <!-- BOOKING INTRO -->
+    <section class="dl-intro section-space" aria-labelledby="page-title">
+      <div class="dl-intro__inner reveal">
+        <p class="eyebrow">DAGDELEN LASHES / BOOKING EXPERIENCE</p>
+
+        <h1 class="display-title" id="page-title">
+          Din tid til <em>forkælelse.</em>
+        </h1>
+
+        <p class="body-copy">
+          Vælg din behandling, en dato og et tidspunkt
+          i vores bookingdemo. Det hele er et eksempel
+          på, hvordan den færdige bookingoplevelse
+          kommer til at fungere.
+        </p>
+
+        <span class="dl-demo-mark">
+          DEMO · INGEN RIGTIGE TIDER RESERVERES
+        </span>
+
+        <div class="dl-intro__bottom">
+          <span class="dl-micro">EN ROLIG STUND – KUN TIL DIG</span>
+
+          <a class="dl-text-arrow" href="#booking">
+            PRØV BOOKING <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING SYSTEM -->
+    <section
+      class="dl-booking section-space"
+      id="booking"
+      data-booking-demo
+      aria-label="Bookingdemo"
+    >
+
+      <div class="dl-booking-layout">
+        <div>
+
+          <!-- TRIN 1: BEHANDLING -->
+          <section class="dl-book-step" aria-labelledby="booking-treatment-title">
+            <div class="dl-step-title">
+              <span>01</span>
+              <h2 id="booking-treatment-title">Vælg behandling</h2>
+            </div>
+
+            <div class="dl-book-service-list" aria-label="Behandlinger">
+
+              <button class="dl-book-service" type="button" data-service="single" data-name="Single lashes" data-price="350" aria-pressed="false">
+                <strong>Single lashes</strong>
+                <span>350 kr. · ca. 60 min.</span>
+              </button>
+
+              <button class="dl-book-service" type="button" data-service="hybrid" data-name="Hybrid lashes" data-price="450" aria-pressed="false">
+                <strong>Hybrid lashes</strong>
+                <span>450 kr. · ca. 60 min.</span>
+              </button>
+
+              <button class="dl-book-service" type="button" data-service="volume" data-name="Volume lashes" data-price="550" aria-pressed="false">
+                <strong>Volume lashes</strong>
+                <span>550 kr. · ca. 60 min.</span>
+              </button>
+
+              <button class="dl-book-service" type="button" data-service="lift-uden" data-name="Lash lift uden farve" data-price="200" aria-pressed="false">
+                <strong>Lash lift uden farve</strong>
+                <span>200 kr. · ca. 60 min.</span>
+              </button>
+
+              <button class="dl-book-service" type="button" data-service="lift-med" data-name="Lash lift med farve" data-price="250" aria-pressed="false">
+                <strong>Lash lift med farve</strong>
+                <span>250 kr. · ca. 60 min.</span>
+              </button>
+
+              <button class="dl-book-service" type="button" data-service="aftagelse-eget" data-name="Aftagelse af Melis' arbejde" data-price="50" aria-pressed="false">
+                <strong>Aftagelse – lavet af Melis</strong>
+                <span>50 kr. · ca. 60 min.</span>
+              </button>
+
+              <button class="dl-book-service" type="button" data-service="aftagelse-andre" data-name="Aftagelse af andres værk" data-price="150" aria-pressed="false">
+                <strong>Aftagelse – andres værk</strong>
+                <span>150 kr. · ca. 60 min.</span>
+              </button>
+            </div>
+
+            <p class="dl-book-hint">
+              Varigheden er foreløbigt sat til én time
+              for alle behandlinger og kan blive justeret.
+            </p>
+          </section>
+
+          <!-- TRIN 2: KALENDER -->
+          <section class="dl-book-step" aria-labelledby="booking-date-title">
+            <div class="dl-step-title">
+              <span>02</span>
+              <h2 id="booking-date-title">Vælg dato</h2>
+            </div>
+
+            <div class="dl-calendar">
+
+              <div class="dl-calendar-bar">
+                <h3 id="booking-calendar-label">Kalender</h3>
+
+                <div class="dl-calendar-controls">
+                  <button id="booking-prev-month" type="button" aria-label="Forrige måned">←</button>
+                  <button id="booking-next-month" type="button" aria-label="Næste måned">→</button>
+                </div>
+              </div>
+
+              <div class="dl-calendar-weekdays" aria-hidden="true">
+                <span>Man</span>
+                <span>Tir</span>
+                <span>Ons</span>
+                <span>Tor</span>
+                <span>Fre</span>
+                <span>Lør</span>
+                <span>Søn</span>
+              </div>
+
+              <div
+                class="dl-calendar-grid"
+                id="booking-calendar-grid"
+                aria-label="Vælg en dato"
+              ></div>
+
+            </div>
+          </section>
+
+          <!-- TRIN 3: TID -->
+          <section class="dl-book-step" aria-labelledby="booking-time-title">
+            <div class="dl-step-title">
+              <span>03</span>
+              <h2 id="booking-time-title">Vælg tidspunkt</h2>
+            </div>
+
+            <div
+              class="dl-slot-grid"
+              id="booking-time-grid"
+              aria-label="Vælg starttidspunkt"
+            ></div>
+
+            <p
+              class="dl-book-hint"
+              id="booking-time-message"
+              aria-live="polite"
+            >
+              Vælg en dato i kalenderen.
+            </p>
+          </section>
+
+        </div>
+
+        <!-- BOOKINGOVERSIGT -->
+        <aside class="dl-summary" aria-labelledby="summary-title">
+
+          <p class="eyebrow">DIN BOOKINGOVERSIGT</p>
+
+          <h2 id="summary-title">
+            Et øjeblik <em>til dig.</em>
+          </h2>
+
+          <div class="dl-summary-row">
+            <span>Behandling</span>
+            <strong id="summary-service">Ikke valgt endnu</strong>
+          </div>
+
+          <div class="dl-summary-row">
+            <span>Dato</span>
+            <strong id="summary-date">Ikke valgt endnu</strong>
+          </div>
+
+          <div class="dl-summary-row">
+            <span>Klokkeslæt</span>
+            <strong id="summary-time">Ikke valgt endnu</strong>
+          </div>
+
+          <div class="dl-summary-row">
+            <span>Pris</span>
+            <strong id="summary-price">—</strong>
+          </div>
+
+          <button
+            type="button"
+            class="dl-summary__button"
+            id="booking-preview-button"
+            disabled
+          >
+            SE MIN BOOKINGOVERSIGT ↗
+          </button>
+
+          <p class="dl-summary__disclaimer">
+            Dette er en design-demo. Tidspunkterne
+            viser åbningstider – ikke faktisk ledighed.
+            Ingen oplysninger sendes, og ingen tid reserveres.
+          </p>
+
+        </aside>
+      </div>
+
+      <!-- DEMOBEKRÆFTELSE -->
+      <section
+        class="dl-booking-preview"
+        id="booking-preview"
+        aria-labelledby="booking-preview-title"
+        hidden
+      >
+        <p class="dl-micro">DIT VALG / IKKE EN BEKRÆFTELSE</p>
+
+        <h3 id="booking-preview-title">
+          Din ønskede tid.
+        </h3>
+
+        <strong id="booking-preview-text"></strong>
+
+        <p>
+          Du har gennemført bookingdemoen, men du har
+          <strong>ikke booket en rigtig tid</strong>.
+          Når det endelige system er klar, vil du
+          kunne sende din booking herfra.
+        </p>
+
+        <button
+          type="button"
+          class="dl-text-arrow"
+          id="booking-edit-button"
+        >
+          RET MIT VALG
+          <span aria-hidden="true">↗</span>
+        </button>
+      </section>
+
+    </section>
+
+    <!-- AFSLUTNING -->
+    <section class="dl-cta section-space" aria-labelledby="booking-ending">
+      <div class="dl-cta__inner reveal">
+        <p class="eyebrow">ÅBNINGSTIDER</p>
+
+        <h2 id="booking-ending">
+          Skabt med <em>tid til dig.</em>
+        </h2>
+
+        <p>
+          Mandag–fredag kl. 16.00–20.00 og
+          lørdag–søndag kl. 14.00–22.00.
+          Har du spørgsmål, kan du kontakte
+          Dagdelen Lashes via Instagram.
+        </p>
+
+        <a class="button-outline" href="kontakt.html">
+          SE KONTAKT <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <a class="site-footer__brand" href="index.html">
+        Dagdelen <span>Lashes</span>
+      </a>
+
+      <nav aria-label="Navigation i sidefod">
+        <a href="index.html">Forside</a>
+        <a href="om-mig.html">Om mig</a>
+        <a href="behandlinger.html">Behandlinger</a>
+        <a href="book-tid.html">Book tid</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </div>
+
+    <div class="site-footer__social">
+      <p class="site-footer__social-label">FØLG MED PÅ INSTAGRAM</p>
+      <div class="site-footer__social-links">
+        <a href="https://www.instagram.com/dagdelen_lashes/" target="_blank" rel="noopener noreferrer">
+          @dagdelen_lashes <span aria-hidden="true">↗</span>
+        </a>
+        <a href="https://www.instagram.com/melis_dagdelen41/" target="_blank" rel="noopener noreferrer">
+          @melis_dagdelen41 <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <span>BEAUTY IS IN THE DETAILS</span>
+      <span>© <span data-year>2026</span> DAGDELEN LASHES</span>
+    </div>
+  </footer>
+</body>
+</html>
